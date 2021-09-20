@@ -1,0 +1,70 @@
+*{
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif;
+    box-sizing: border-box;
+}
+body{
+    background-image: url("https://images7.alphacoders.com/752/752164.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+.container{
+    box-sizing: content-box;
+    width: 300px;
+    height: 200px;
+    padding: 40px;
+    border: 3px solid black;
+    border-radius: 5px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(245, 245, 245, 0.836);    
+}
+
+h1{
+    margin: 10px 0;
+    font-size: 30px;
+    text-align: center;
+}
+form{
+    margin: 10px;
+    padding: 5px;
+    margin-left: 31px;
+}
+form label{
+    display: block;
+    font-size: 20px;
+    margin-top: 10px;
+  
+}
+form input{
+    width: 90%;
+    padding: 5px;
+    margin: 10px 0;
+    border: 2px solid;
+    border-radius: 3px;
+    
+}
+form p{
+    font-size: 20px;
+    text-align: center;
+}
+button{
+    display: block;
+    color: white;
+    margin: 10px 0;
+    padding: 8px 8px;
+    border: none;
+    border-radius: 2px;
+    font-size: 16px;
+    font-weight: bold;
+    background-color: #4CAF50;
+}
+button:hover{
+    background-color: rgba(138, 214, 76, 0.932);
+    color: rgba(0, 0, 0, 0.767);
+
+}
