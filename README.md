@@ -12,3 +12,4 @@ Essa ideias de aplicativos foram retiradas do repositório, a seguir:
 
  https://github.com/florinpop17/app-ideas
 
+ 
