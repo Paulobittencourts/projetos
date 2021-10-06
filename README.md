@@ -3,8 +3,8 @@
 Nesse repositório vão ter projetos de vários níveis utilizando JavaScript.
 
 - Básico 
-  - [Conversor De Binário para Decimal](https://github.com/Paulobittencourts/projetos/tree/main/BasicProjects/BinaryToDecimal)
-  - [Border-Radius](https://github.com/Paulobittencourts/projetos/tree/main/BasicProjects/Border-radius)
+  - [Conversor De Binário para Decimal](https://github.com/Paulobittencourts/projetos/tree/main/BinaryToDecimal)
+  - [Border-Radius](https://github.com/Paulobittencourts/projetos/tree/main/Border-radius)
 - Intermediário 
 - Avançados 
 
