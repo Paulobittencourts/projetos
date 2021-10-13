@@ -13,4 +13,6 @@ Essa ideias de aplicativos foram retiradas do repositório, a seguir:
 
  https://github.com/florinpop17/app-ideas
 
+ Vem dar uma olha nos codigos rodando:
  
+ https://paulobittencourts.github.io/projetos/
