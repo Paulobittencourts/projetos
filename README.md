@@ -6,6 +6,7 @@ Nesse repositório vão ter projetos de vários níveis utilizando JavaScript.
   - [Conversor De Binário para Decimal](https://github.com/Paulobittencourts/projetos/tree/main/BinaryToDecimal)
   - [Border-Radius](https://github.com/Paulobittencourts/projetos/tree/main/Border-radius)
   - [Genius](https://github.com/Paulobittencourts/projetos/tree/main/Genius)
+  - [Calculadora](https://github.com/Paulobittencourts/projetos/tree/main/Calculator)
 - Intermediário 
 - Avançados 
 
