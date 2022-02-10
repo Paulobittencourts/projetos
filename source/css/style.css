@@ -44,7 +44,7 @@ html,body {
     font-size: 20px;
     width: 600px;
 }
-img{
+.conteudo-principal img{
     height: 250px;
     border-radius: 10px;
 }
@@ -82,5 +82,23 @@ a.button{
     border-radius: 10px;
     background-color:#219F94;
     color: #E8E8A6;
+    text-decoration: none;
+}
+
+.rodape{
+    padding: 32;
+    border-top: 0.4px solid #219F94;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.rodape img{
+    padding: 10px;
+    border-radius: 15px;
+}
+.rodape a{
     text-decoration: none;
 }
