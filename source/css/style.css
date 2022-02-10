@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap');
+html,body {
+    margin: 0;
+    height: 100vh;
+    background-color:#C1DEAE;
+    display: flex;
+    flex-direction: column;
+}
+.cabecalho{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 10px;
+    border-bottom: solid 3px #E8E8A6;
+}
+.cabecalho label{
+    font-family: 'Dancing Script',cursive, 'Times New Roman', Times, serif;
+    font-size: 45px;
+    font-weight: 900;
+}
+.conteudo{
+    margin: 50px;
+}
+.conteudo-principal{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+.conteudo-escrito{
+    display: flex;
+    flex-direction: column; 
+}
+.conteudo-escrito h1{
+    font-family: 'Dancing Script',cursive, 'Times New Roman', Times, serif;
+    font-weight: 800;
+    font-size: 44px;
+}
+.conteudo-escrito p{
+    font-family: 'Sarala', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    width: 600px;
+}
+img{
+    height: 250px;
+    border-radius: 10px;
+}
+.separador{
+    margin-top: 100px;
+    margin-bottom: 42px;
+    border-top: 2px solid #219F94;
+}
+.conteudo-tabelas{
+    display: flex;
+    flex: 1;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+
+}
+.itens{
+    font-family:'Sarala', sans-serif;
+    width: 250px;
+    height: 150px;
+    border: solid 2px #219F94;
+    border-radius: 10px;
+    padding: 10px;
+    background-color:#E8E8A6;
+    text-align: center;
+    margin-top: 10px;
+}
+p.itens{
+    padding: 10px;
+}
+a.button{
+    display: inline-block;
+    padding: 5px 25px;
+    border:none;
+    border-radius: 10px;
+    background-color:#219F94;
+    color: #E8E8A6;
+    text-decoration: none;
+}

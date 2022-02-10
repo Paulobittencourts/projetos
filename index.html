@@ -1,60 +1,50 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Pagina Incial</title>
+    <link rel="stylesheet" href="source/css/style.css">
+    <title>Pagina Inicial - Projetos</title>
 </head>
 <body>
     <header class="cabecalho">
-        <div class="logo">
-            <a href="index.html">
-                <img src="imgs/programacao.png" alt="programacao">
-            </a>
-        </div>
         <label>Projetos</label>
     </header>
 
-    <section class="container">
-        <div class="itens">
-            <span>Binario para Decimal</span>
-            <p>Projeto que converte binário para decimal</p>
-            <a href="index-binary.html" type="button" class="visual">Visualizar</a>
-        </div>
-        <div class="itens">
-            <span>Border-radius</span>
-            <p>Projeto para visualizar e criar Border-radius</p>
-            <a href="index-border.html" type="button" class="visual">Visualizar</a>
-        </div>
-        <div class="itens">
-            <span>Jogo Genius</span>
-            <p>Projeto desenvolvido junto com Digital Innovation</p>
-            <a href="index-genius.html" type="button" class="visual">Visualizar</a>
-        </div>
-        <div class="itens">
-            <span>Calculadora</span>
-            <p>Projeto de uma calculadora</p>
-            <a href="index-calculator.html" type="button" class="visual">Visualizar</a>
-        </div>
-    </section>  
+    <main class="conteudo">
+        <section class="conteudo-principal">
+            <div class="conteudo-escrito">
+                <h1>Sobre o conteúdo</h1>
+                <p>Esse site é feito por Paulo Bitencourth, para intuitos de estudos e mostrar projetos do Básico ao 
+                    avançados com HTML, CSS e JavaScript. </p>
+            </div>
+            <img src="source/imgs/bob.gif" alt="bob-construtor">
+        </section>
+        <div class="separador"></div>
 
-    <footer class="rodape">
-        <article class="rodape_art">
-            <p>Feito por Paulo Henrique Bitencourth</p>
-        </article> 
-        <article class="rodape_art">
-            <a href="https://github.com/Paulobittencourts" target="_blank">
-                <img src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="github">
-            </a>
-            <a href="mailto:paulobittencourt94@gmail.com" target="_blank">
-                <img src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="gmail">
-            </a>
-            <a href="https://www.linkedin.com/in/bittencourts/" target="_blank">
-                <img src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="linkedin">
-            </a>
-        </article>
-    </footer>
+        <section class="conteudo-tabelas">
+            <div class="itens">
+                <label>Binario para Decimal</label>
+                <p>Conversor de binário para decimal</p>
+                <a href="index-binary.html" class="button" type="button">Visualizar</a>
+            </div>
+            <div class="itens">
+                <label>Border-radius</label>
+                <p>Visualizar e criar Border-radius</p>
+                <a href="index-border.html" class="button" type="button">Visualizar</a>
+            </div>
+            <div class="itens">
+                <label>Jogo Genius</label>
+                <p>Memorização de cores</p>
+                <a href="index-genius.html" class="button" type="button">Visualizar</a>
+            </div>
+            <div class="itens">
+                <label>Calculadora</label>
+                <p>Projeto de uma Calculadora</p>
+                <a href="index-calculator.html" class="button" type="button">Visualizar</a>
+            </div>
+        </section>
+    </main>   
 </body>
 </html>
