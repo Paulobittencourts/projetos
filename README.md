@@ -7,6 +7,7 @@ Nesse repositório vão ter projetos de vários níveis utilizando JavaScript.
   - [Border-Radius](https://github.com/Paulobittencourts/projetos/tree/main/source/Border-radius)
   - [Genius](https://github.com/Paulobittencourts/projetos/tree/main/source/Genius)
   - [Calculadora](https://github.com/Paulobittencourts/projetos/tree/main/source/Calculator)
+  - [CountDown Time](https://github.com/Paulobittencourts/projetos/tree/main/source/Cronometro)
 - Intermediário 
 - Avançados 
 
