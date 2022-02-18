@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="source/Cronometro/styles.css">
+    <title>Countdown Timer</title>
+</head>
+<body>
+
+    <main>
+        <div class="nome-evento">
+            <h1 id = "titulo"></h1>
+        </div>
+        <section class="conteudo">
+            <form>
+                <div class="evento">
+                    <label>Nome do evento</label>
+                    <input type="text" id="nameEvent">
+                    
+                    <label>Data</label>
+                    <input type="date" id ="dateEvent">
+    
+                    <button type="button" class="button" id="button" onclick="countDownTimer()" >START</button>
+                </div>
+            </form>
+            <div class="container">
+                <div class="relogio-colunas">
+                    <p class="relogio-numero dias"></p>
+                    <p class="relogio-label">Dias</p>
+                </div>
+                <div class="relogio-colunas">
+                    <p class="relogio-numero hrs"></p>
+                    <p class="relogio-label">Horas</p>
+                </div>
+                <div class="relogio-colunas">
+                    <p class="relogio-numero min"></p>
+                    <p class="relogio-label">Minutos</p>
+                </div>
+                <div class="relogio-colunas">
+                    <p class="relogio-numero seg"></p>
+                    <p class="relogio-label">Segundos</p>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="source/Cronometro/script.js"></script>
+    
+</body>
+</html>

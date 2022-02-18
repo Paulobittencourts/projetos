@@ -1,0 +1,87 @@
+html,body{
+    padding: 0;
+    margin: 0;
+    background-color: #f7f7f2;
+}
+.conteudo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    width: 100vw;
+    height: 50vh;
+}
+.evento{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 200px;
+    height: 200px;
+    border: 2px solid black;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.evento label{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+}
+
+.container{
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    width: 500px;
+    padding: 10px;
+}
+
+.relogio-colunas{
+    margin-right: 50px;
+    text-align: center;
+    position: relative;
+}
+.relogio-colunas p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-weight: 800;
+}
+.relogio-numero{
+    font-size: 25px;
+}
+.relogio-label{
+    padding-top: 10px;
+	text-transform: uppercase;
+	color: #131313;
+	font-size: 14px;
+	text-align: center;
+	border-top: 1px solid rgba(19, 19, 19, 0.5);
+}
+
+input{
+    padding: 5px;
+    border-radius: 10px;
+    border: 2px solid black;
+    
+}
+.button{
+    display: inline-block;
+    padding: 5px 25px;
+    border:none;
+    border-radius: 10px;
+    background-color:#219F94;
+    color: #E8E8A6;
+    text-decoration: none;
+    margin-top: 15px;
+    text-align: center;
+    font-weight: 700;
+}
+
+.nome-evento{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    margin-top: 50px;
+}
